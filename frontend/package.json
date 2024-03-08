@@ -1,0 +1,41 @@
+{
+  "name": "vite-typescript-basic",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "Buffer": "^0.0.0",
+    "chart.js": "^4.4.2",
+    "date-fns": "^3.3.1",
+    "i18next": "^23.8.3",
+    "i18next-http-backend": "^2.4.3",
+    "js-base64": "^3.7.7",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "primeflex": "^3.3.1",
+    "primeicons": "^6.0.1",
+    "primereact": "^10.0.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^14.0.5",
+    "react-router": "^6.22.1",
+    "react-router-dom": "^6.22.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/jwt-decode": "^3.1.0",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "latest",
+    "sass": "^1.71.0",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
